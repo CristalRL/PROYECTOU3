@@ -1,0 +1,41 @@
+.legend {
+    display: inline-block;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.agua {
+    background-color: #1f9be8; /* Azul */
+}
+
+.luz {
+    background-color: #f3ff0e; /* Naranja */
+}
+
+.gas {
+    background-color: #45f745; /* Verde */
+}
+
+.ct-line {
+    stroke: none; /* Quita el borde de las barras */
+}
+
+.ct-series-a .ct-line {
+    stroke: #0ea3ff; 
+    stroke-width: 5px;
+
+}
+
+.ct-series-b .ct-line {
+    stroke: #eefb00; 
+    stroke-width: 5px;
+
+}
+
+.ct-series-c .ct-line {
+    stroke: #45f745; 
+    stroke-width: 5px;
+
+}

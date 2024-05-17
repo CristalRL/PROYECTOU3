@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrar Contenido con Imagen de Fondo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('imagenes/portada.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .contenedor {
+            text-align: center; 
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.8); 
+            max-width: 600px; 
+            margin: auto; 
+        }
+        h2 {
+            font-style: italic; 
+        }
+        .boton {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: blue;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .boton:hover {
+            background-color: darkblue;
+        }
+        .grafica, .tabla {
+            font-weight: bold; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="contenedor">
+    <h2>¿Cómo prefieres ver los gastos? 
+        Cuando se trata de visualizar los gastos, nos hemos centrado en dos aspectos clave: la claridad y la accesibilidad. Queremos que nuestros usuarios puedan entender fácilmente cómo se distribuye el consumo de Energía,Agua y Luz en diferentes áreas del edificio y cómo evoluciona con el tiempo.
+    </h2>
+    <button class="boton" onclick="location.href='grafica.php';">Ver Gráfica</button>
+    <button class="boton" onclick="location.href='Tabla.php';">Ver tabla</button>
+    <button class="boton" onclick="location.href='analisis.php';">Ver analisis y metricas clave</button>
+</div>
+
+</body>
+</html>
